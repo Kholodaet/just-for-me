@@ -1,0 +1,133 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/img/hero/hero-mob-1x.png);
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .hero-container {
+    background-image: url(/img/hero/hero-mob-2x.png);
+    background-repeat: no-repeat;
+  }
+}
+
+.hero-title {
+  padding-top: 112px;
+  color: #292929;
+  font-family: Impact;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25; /* 125% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  width: 100%; /* Змінюємо ширину */
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.hero-span-title {
+  color: #00b068;
+  font-family: Impact;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25; /* 125% */
+  letter-spacing: 1.8;
+  text-transform: uppercase;
+}
+
+.button-container {
+  display: flex;
+  align-items: center; /* Додаємо вирівнювання по центру по вертикалі */
+  margin-top: 40px; /* Додаємо відступ зверху */
+}
+
+.order {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  /* width: 28px;
+  height: 0px;
+  flex-shrink: 0; */
+  margin-right: 12px;
+}
+
+.icon-green-arrow {
+  fill: #00b068;
+}
+
+.button-hero {
+  width: 165px;
+  height: 92px;
+  border-radius: 16px;
+  border: none;
+  background: rgba(0, 176, 104, 0.2);
+  margin-left: -74px; /* Від'ємний відступ зліва, щоб текст трохи заходив на кнопку */
+  display: flex;
+  align-items: center; /* Вирівнювання по центру по вертикалі */
+  justify-content: center; /* Вирівнювання по центру по горизонталі */
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background: rgba(0, 176, 104, 0.6);
+}
+
+.hero-text {
+  width: 320px;
+  color: var(--Black, #292929);
+
+  /* Mobile/caption-360 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.social-media-list {
+  display: flex;
+  width: 360px;
+  padding: 32px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background: #e4e5e6;
+  margin-top: 72px;
+}
+.social-media-item {
+  color: #292929;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+}
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #292929;
+}

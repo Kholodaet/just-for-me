@@ -1,0 +1,37 @@
+.header-logo {
+  color: #292929;
+  font-family: Impact;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: #00b068;
+  font-family: Impact;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  gap: 108px;
+  padding-bottom: 32px;
+}
+
+.burger-btn {
+  display: flex;
+  padding: 0;
+  background: none;
+  border: none;
+  /* margin-right: 108px; */
+}
