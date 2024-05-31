@@ -3,11 +3,6 @@
 @import url('./container.css');
 @import url('./fonts.css');
 
-body {
-  font-family: 'Inter Tight', sans-serif;
-  background-color: var(--font-color);
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -21,6 +16,30 @@ body {
   overflow: hidden;
 }
 
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+h2 {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
 }

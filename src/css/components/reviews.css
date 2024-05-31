@@ -1,0 +1,114 @@
+.reviews-section {
+}
+
+.reviews-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.review-card {
+  border-radius: 16px;
+  width: 320px;
+  padding: 32px;
+  min-height: 224px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #e4e5e6;
+}
+
+.review-card-text {
+  color: #292929;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.review-card-author {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.review-card-author-avatar {
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.review-card-author-name {
+  font-weight: 600;
+  color: #292929;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.reviews-slider-navigation {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+}
+
+.custom-button-next,
+.custom-button-prev {
+  border: 1px solid rgba(41, 41, 41, 0.3);
+  border-radius: 8px;
+  padding: 12px;
+  width: 40px !important;
+  height: 40px !important;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-button-prev {
+  transform: rotate(180deg);
+}
+
+.custom-button-icon {
+  flex-shrink: 0;
+  fill: transparent;
+  stroke: #292929;
+}
+
+.swiper-button-disabled {
+  border: 1px solid rgba(41, 41, 41, 0.1);
+}
+
+.swiper-button-disabled svg {
+  stroke: #cccccc;
+}
+
+@media screen and (min-width: 1280px) {
+  .custom-button-next,
+  .custom-button-prev {
+    width: 48px !important;
+    height: 48px !important;
+    transition: background 0.4s ease;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .custom-button-next:focus,
+  .custom-button-prev:focus,
+  .custom-button-next:hover,
+  .custom-button-prev:hover {
+    background-color: var(--light-grey);
+  }
+}
