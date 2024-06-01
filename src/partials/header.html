@@ -1,21 +1,32 @@
-<section class="header-main">
-  <div class="header-wrapper">
-    <div class="container header-container">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo"
-          >Lloyd<span class="logo-span">Jefferson.</span></a
-        >
-      </nav>
+<header id="header" class="header">
+  <section class="container">
+    <div class="header-elements">
+      <p class="logo">LLOYD<span>JEFFERSON.</span></p>
 
-      <button
-        aria-label="open mob menu"
-        class="burger-btn js-open-menu"
-        type="button"
-      >
-        <svg class="icon icon-burger-menu" width="28" height="28">
-          <use href="./img/symbol-defs.svg#icon-burger-menu"></use>
-        </svg>
-      </button>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#aboutMe">About me</a></li>
+          <li><a href="#myProjects">Projects</a></li>
+          <li><a href="#workTogether">Contacts</a></li>
+        </ul>
+      </nav>
+    
+      <div class="burger-btn">
+        <span class="btn-line"></span>
+        <span class="btn-line"></span>
+        <span class="btn-line"></span>
+      </div>
     </div>
+
+  <div class="burger-menu hidden">
+    <nav class="burger-nav">
+      <ul class="burger-list">
+        <li><a href="#aboutMe">About me</a></li>
+        <li><a href="#myProjects">Projects</a></li>
+        <li><a href="#workTogether">Contacts</a></li>
+      </ul>
+    </nav>
   </div>
-</section>
+
+  <!-- <script type="module" src="/js/header.js"></script> -->
+</header>

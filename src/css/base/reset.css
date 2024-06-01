@@ -1,14 +1,24 @@
 :root {
-  font-family:
-    Impact,
-    Poppins Regular,
-    sans-serif;
+  font-family: 'Impact', 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #292929;
   background-color: #f0f0f0;
 }
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #292929;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+}
+
 html,
 body,
 div,
@@ -94,7 +104,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
   vertical-align: baseline;
 }
 
@@ -141,9 +151,19 @@ img {
 }
 
 a {
+  color: currentColor;
+
   text-decoration: none;
 }
 
 button {
   cursor: pointer;
+}
+
+.link-hover {
+  transition: color 0.4s ease;
+}
+
+.link-hover:hover {
+  color: #00b068;
 }
