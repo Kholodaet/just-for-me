@@ -9,33 +9,43 @@
     <script type="module" crossorigin src="/just-for-me/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/just-for-me/assets/vendor-1565971e.js">
     <link rel="stylesheet" href="/just-for-me/assets/vendor-23d9f17b.css">
-    <link rel="stylesheet" href="/just-for-me/assets/index-76b64095.css">
+    <link rel="stylesheet" href="/just-for-me/assets/index-1fee2e2e.css">
   </head>
 
   <body>
     <header>
-      <section class="header-main">
-  <div class="header-wrapper">
-    <div class="container header-container">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo"
-          >Lloyd<span class="logo-span">Jefferson.</span></a
-        >
+      <header id="header" class="header">
+  <section class="container">
+    <div class="header-elements">
+      <p class="logo">LLOYD<span>JEFFERSON.</span></p>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#aboutMe">About me</a></li>
+          <li><a href="#myProjects">Projects</a></li>
+          <li><a href="#workTogether">Contacts</a></li>
+        </ul>
       </nav>
-
-      <button
-        aria-label="open mob menu"
-        class="burger-btn js-open-menu"
-        type="button"
-      >
-        <svg class="icon icon-burger-menu" width="28" height="28">
-          <use href="/just-for-me/assets/symbol-defs-8a1f63e2.svg#icon-burger-menu"></use>
-        </svg>
-      </button>
+    
+      <div class="burger-btn">
+        <span class="btn-line"></span>
+        <span class="btn-line"></span>
+        <span class="btn-line"></span>
+      </div>
     </div>
-  </div>
-</section>
 
+  <div class="burger-menu hidden">
+    <nav class="burger-nav">
+      <ul class="burger-list">
+        <li><a href="#aboutMe">About me</a></li>
+        <li><a href="#myProjects">Projects</a></li>
+        <li><a href="#workTogether">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- <script type="module" src="/js/header.js"></script> -->
+</header>
     </header>
 
     <main>
@@ -57,21 +67,21 @@
       I work with people all over the world to create impressive and functional
       websites that reflect each client’s unique personality.
     </p>
-    <ul class="social-media-list">
-      <li class="social-media-item">
-        <a class="social-media-link" href="www.instagram.com">Instagram</a>
-      </li>
-      <li class="social-media-item">
-        <a class="social-media-link" href="www.facebook.com">Facebook</a>
-      </li>
-      <li class="social-media-item">
-        <a class="social-media-link" href="www.linkedin.com">Linkedin</a>
-      </li>
-      <li class="social-media-item">
-        <a class="social-media-link" href="www.github.com">GitHub</a>
-      </li>
-    </ul>
   </div>
+  <ul class="social-media-list">
+    <li class="social-media-item">
+      <a class="social-media-link" href="www.instagram.com">Instagram</a>
+    </li>
+    <li class="social-media-item">
+      <a class="social-media-link" href="www.facebook.com">Facebook</a>
+    </li>
+    <li class="social-media-item">
+      <a class="social-media-link" href="www.linkedin.com">Linkedin</a>
+    </li>
+    <li class="social-media-item">
+      <a class="social-media-link" href="www.github.com">GitHub</a>
+    </li>
+  </ul>
 </section>
 
       <section class="about-me">
