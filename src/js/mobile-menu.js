@@ -1,7 +1,5 @@
-//js
-
-const burgerBtn = document.querySelector('.burger-btn');
-const burgerMenu = document.querySelector('.burger-menu');
+const burgerBtn = document.querySelector('.header-burger-btn');
+const burgerMenu = document.querySelector('.header-burger-menu');
 
 burgerBtn.addEventListener('click', event => {
   toggleBurger();
