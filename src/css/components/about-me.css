@@ -5,7 +5,7 @@
 .about-container {
 }
 .about-title {
-  color: var(--Black, #292929);
+  color: #292929;
   text-align: start;
 
   /* Mobile/h2-360 */
@@ -18,7 +18,7 @@
   margin: 0 auto;
 }
 .about-span {
-  color: var(--Accet-green, #00b068);
+  color:  #00b068;
 
   /* Mobile/h2-360 */
   font-family: Impact;

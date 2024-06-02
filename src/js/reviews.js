@@ -57,12 +57,12 @@ const swiper = new Swiper('#reviews-slider', {
   // Responsive breakpoints
   breakpoints: {
     // when window width is >= 320px
-    320: {
+    768: {
       slidesPerView: 1,
       spaceBetween: 10,
     },
     // when window width is >= 991px
-    991: {
+    1280: {
       slidesPerView: 2,
       spaceBetween: 32,
     },
